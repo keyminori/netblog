@@ -41,6 +41,7 @@ textarea{border-top-width: 1px;border-left-width: 1px;border-left-color: #000000
   display: table;
   content: " ";
 }
+
 .container:after,
 .row:after,
 .nav:after {
@@ -86,21 +87,27 @@ table#DataGrid1{font-size:14px;}
 .rightttop{background:url(bian-bian.gif);height:36px;line-height:36px;text-align:center;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;color:white;}
 /* 页脚 */
 .copyright {
-	width: 100%;
+	height:100px;
+	width:780px;
 	margin: 0 auto;
 }
 
 .copyright img {
-	width: 200px;
+	width: 250px;
 	padding: 0 0 10px 10px;
 }
 
 .copyright_right {
-	float:float;
+	padding:10px 0 0 10px;
+	width:500px;
+	float:left;
 	font-size: 6px;
 	margin: 0 auto;
 }
-
+.copyright_left {
+	float:left;
+	margin: 0 auto;
+}
 .copyright_right p {
 	margin: 0px;
 }
