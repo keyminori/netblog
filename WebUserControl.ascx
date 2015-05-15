@@ -1,27 +1,11 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
-<table border="0" cellpadding="0" cellspacing="0" height="50" width="778">
-    <tbody>
-        <tr>
-            <td align="center" rowspan="3" valign="top" width="114">
-                <a href="http://www.hangzhou.cyberpolice.cn/" target="_blank">
-                    <img border="0" height="30" src="images/wjzdx.gif" width="30" /></a></td>
-            <td align="center" valign="bottom" width="510">
-                版权所有：个人博客系统</td>
-            <td align="center" valign="bottom" width="154">
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td align="center" valign="bottom">
-                <a href="http://www.miibeian.gov.cn/" target="_blank"><span style="color: #000000">浙ICP备cvvvv号</span></a></td>
-            <td align="center" style="color: #000000" valign="bottom">
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td align="center">
-                <span class="b"><a href="http://www.xxxxxx.cn/" target="_blank"></a></span>
-            </td>
-            <td align="center">
-                &nbsp;</td>
-        </tr>
-    </tbody>
-</table>
+
+     <div class="copyright"> 
+      <img src="img/logo.jpg" width="300" /> 
+      <div class="copyright_right"> 
+       <p> &copy; 2015 blog, Inc. All Rights Reserved.</p> 
+       <p> 粤ICP备1xxxxx号-1 版权所有：个人博客系统 </p> 
+       <p> <a title="联系我们" href="mailto:bukamanhua@buka.cn" target="_blank">联系我们|家长监护系统</a> </p> 
+       <p> 抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </p> 
+      </div> 
+</div> 

@@ -84,3 +84,23 @@ table#DataGrid1{font-size:14px;}
 .lefttop{background:url(ttt.gif);height:36px;line-height:36px;text-align:center;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;}
 /* 左边导航头部 */
 .rightttop{background:url(bian-bian.gif);height:36px;line-height:36px;text-align:center;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;color:white;}
+/* 页脚 */
+.copyright {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.copyright img {
+	width: 200px;
+	padding: 0 0 10px 10px;
+}
+
+.copyright_right {
+	float:float;
+	font-size: 6px;
+	margin: 0 auto;
+}
+
+.copyright_right p {
+	margin: 0px;
+}
