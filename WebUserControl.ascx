@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
 
 <div class="row">
-<div class="content-box">
+<div class="fixfooter">
      <div class="copyright"> 
      <div class="copyright_left"> <img src="img/logo.jpg" width="300" /> </div>
       <div class="copyright_right"> 

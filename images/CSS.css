@@ -30,7 +30,7 @@ textarea{border-top-width: 1px;border-left-width: 1px;border-left-color: #000000
 .title2{font-size: 14px;color: #ff3300;}
 .title3{font-weight: bold;font-size: 16px;color: #ff3300;}
 /* 主体框架 */
-.container{width: 780px; padding: 0 15px; margin:0 auto}
+.container{width: 780px; padding: 0 15px; margin:0 auto;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD}
 .row{margin-right: -15px; margin-left: -15px;}
 .container:before,
 .container:after,
@@ -47,13 +47,15 @@ textarea{border-top-width: 1px;border-left-width: 1px;border-left-color: #000000
 .nav:after {
   clear: both;
 }
-.side, .main{padding: 0 10px;}
+.side{padding:0 8px 0 15px;} 
+.main{padding: 0 15px 0 8px;;}
 .side{width: 190px;float: left;}
 .main{
 	width: 590px;
 	float: left;
 }
 .content-box{margin: 15px 0px;background: #ffffff;border: 1px solid #d7d7d7d7;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;position: relative;}
+.cont{background: #ffffff;border:0 1px 1px 1px solid #eee;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;position: relative;}
 /* 导航 */
 .nav{padding-left: 0;margin-bottom: 0;list-style: none;height: 34px;background-image: -webkit-linear-gradient(270deg,rgba(62,208,253,1.00) 0%,rgba(0,195,255,1.00) 100%);background-image: -moz-linear-gradient(270deg,rgba(62,208,253,1.00) 0%,rgba(0,195,255,1.00) 100%);background-image: -o-linear-gradient(270deg,rgba(62,208,253,1.00) 0%,rgba(0,195,255,1.00) 100%);background-image: linear-gradient(180deg,rgba(62,208,253,1.00) 0%,rgba(0,195,255,1.00) 100%);}
 .nav ul{width: 780px;padding: 0 10px 0 0;margin: 0 auto;}
@@ -74,7 +76,7 @@ a.thumbnail.active{border-color: #337ab7;}
 .thumbnail .caption{padding: 9px;color: #333;}
 img{vertical-align: middle;}
 .photobox{height: 183px;padding:15px 0;}
-.photo{height: 150px; margin:0 20px;position: relative;min-height: 1px;float: left;width: 150px;}
+.photo{height: 150px; margin:0 19px;position: relative;min-height: 1px;float: left;width: 150px;}
 /* TABLE 样式重置 */
 table, td, tr{border:0px rgba(0,0,0,0.00);}
 table tbody tr:nth-child(even){background:rgba(0,0,0,0.03);}
@@ -94,11 +96,10 @@ table#DataGrid1{font-size:14px;}
 
 .copyright img {
 	width: 250px;
-	padding: 0 0 10px 10px;
 }
 
 .copyright_right {
-	padding:10px 0 0 10px;
+	padding:15px 0 0 10px;
 	width:500px;
 	float:left;
 	font-size: 6px;
@@ -112,5 +113,8 @@ table#DataGrid1{font-size:14px;}
 	margin: 0px;
 }
 .fixfooter {
-	margin:0 -5px;
+  background: #ffffff;
+  -moz-box-shadow: 0 0 2px #CDCDCD;
+  -webkit-box-shadow: 0 0 2px #CDCDCD;
+  box-shadow: 0 0 2px #CDCDCD
 }

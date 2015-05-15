@@ -45,22 +45,25 @@
             <div class="photobox">
               <div class="photo">
                 <a href="#" class="thumbnail">
-                  <img src="img/photo.gif" alt="">
+                  <img src="img/1.jpg" alt="">
                 </a>
               </div>
               <div class="photo">
                 <a href="#" class="thumbnail">
-                  <img src="img/photo.gif" alt="">
+                  <img src="img/2.jpg" alt="">
                 </a>
               </div>
               <div class="photo">
                 <a href="#" class="thumbnail">
-                  <img src="img/photo.gif" alt="">
+                  <img src="img/3.jpg" alt="">
                 </a>
               </div>
             </div>
           </div>
-          <div class="content-box">
+          
+        </div>
+      </div>
+      <div class="content-box">
             <div class="rightttop">
               站内导航
             </div>
@@ -80,9 +83,6 @@
               </columns>
             </asp:DataGrid>
           </div>
-        </div>
-        
-      </div>
       <uc2:WebUserControl ID="WebUserControl1" runat="server" />
     </div>
   </form>
