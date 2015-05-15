@@ -89,3 +89,5 @@ table#DataGrid1{font-size:14px;}
 transition:all .2s ease-in-out;}
 /* 列表滑动颜色 */
 li:hover {background-color: rgba(238,238,238,0.50);}
+/* 头部 */
+.topbg {background: url(../img/topbg.gif) no-repeat 50% 70%; height:150px;}
