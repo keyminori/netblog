@@ -35,18 +35,13 @@
         </div>
         <div class="main">
           <div class="content-box">
-            <div class="rightttop">
-              <ul>
-                <li>
-                  站内导航
-                </li>
-              </ul>
-            </div>
+
             <div class="photobox">
               <div class="photo">
                 <a href="#" class="thumbnail">
                   <img src="img/1.jpg" alt="">
                 </a>
+
               </div>
               <div class="photo">
                 <a href="#" class="thumbnail">
@@ -60,7 +55,12 @@
               </div>
             </div>
           </div>
-          
+          <div class="content-box">
+          <div class="wenzhang">
+         <img src="img/dd.jpg" class="cover" width="151" height="182" alt=""/>
+            <p>Dollfie Dream ，简称DD娃娃，是由日本Volks公司造形村所开发的内藏关节的球体关节人形。 DD的身高约是60CM左右, 表面的素材为软身的乙烯树脂。现在市面上买到的, 多是内藏可动关节的DD Base Body II, 也有使用橡筋活动的Base Body I, 但已停产不再发售了。而 Mini Dollfie Dream (下简称MDD)则是在 DP17 (ドールズ・パーティー17)中初公开的新制品，身高比DD为娇小一点 (大约是40cm左右)，由于是新开发的素体，所以可动性也大大增加了。</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="content-box">
