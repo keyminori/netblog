@@ -65,7 +65,7 @@
       </div>
       <div class="content-box">
             <div class="rightttop">
-              站内导航
+              日志列表
             </div>
             <asp:DataGrid ID="DataGrid1" runat="server" AutoGenerateColumns="False"
             Width="100%" Height="130px" ShowHeader="False">
