@@ -9,12 +9,16 @@
 <%@ Register TagPrefix="uc1" TagName="hsgleft" Src="hsgleft.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="hsgtop2" Src="hsgtop2.ascx" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head id="Head1" runat="server">
-    <title>个人博客系统网站</title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head  runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>个人博客系统</title>
     <LINK href="images/CSS.css" type="text/css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script> 
 </head>
 <body>
     <form id="Form1" method="post" runat="server">
