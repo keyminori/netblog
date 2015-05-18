@@ -66,9 +66,10 @@ table tbody tr:nth-child(even){background:rgba(0,0,0,0.03);}
 table td{padding-left:10px;line-height: 24px;}
 table#DataGrid1 tbody tr td:nth-child(odd){width:600px;}
 table#DataGrid1{font-size:14px;}
-/* 左边导航头部*/
+/* 导航头部*/
 .lefttop{background:url(ttt.gif);height:36px;line-height:36px;text-align:center;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;}
-/* 左边导航头部*/
+.maintop{margin:15px 0 -15px;background:url(ttt.gif);height:36px;line-height:30px;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;}
+.tit {padding-left: 40px;}
 .rightttop{background:url(bian-bian.gif);height:36px;line-height:36px;text-align:center;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;color:white;}
 /* 页脚*/
 .copyright{height:100px;width:780px;margin: 0 auto;}
@@ -76,7 +77,7 @@ table#DataGrid1{font-size:14px;}
 .copyright_right{padding:15px 0 0 10px;width:500px;float:left;font-size: 12px;margin: 0 auto;}
 .copyright_left{float:left;margin: 0 auto;}
 .copyright_right p{margin: 0px;}
-.fixfooter{-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);}
+.fixfooter{width:780px; margin:0 auto;-moz-box-shadow: 0 0 2px #CDCDCD;-webkit-box-shadow: 0 0 2px #CDCDCD;box-shadow: 0 0 2px #CDCDCD;background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);}
 /* 正文*/
 .wenzhang p{line-height:24px;padding:0 10px;float:left;width:385px;}
 .cover{background-color: #FFF;margin: 10px;padding: 2px;-webkit-box-shadow: 0 1px 5px #AAA;-moz-box-shadow: 0 1px 5px #AAA;box-shadow: 0 1px 5px #AAA;}
@@ -90,5 +91,5 @@ li:hover{background-color: rgba(238,238,238,0.50);}
 .up {margin-top:0px;}
 
 /* 头部导航文字 */
-.tit {font-size:14px; padding-top:15px;}
+
 

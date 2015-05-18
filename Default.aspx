@@ -83,8 +83,8 @@
               </columns>
             </asp:DataGrid>
           </div>
-      <uc2:WebUserControl ID="WebUserControl1" runat="server" />
     </div>
+          <uc2:WebUserControl ID="WebUserControl1" runat="server" />
   </form>
 </body>
 </html>

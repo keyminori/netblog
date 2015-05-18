@@ -35,8 +35,8 @@
           <uc4:left5 ID="Left5_1" runat="server" />
         </div>
         <div class="main">
-        <div class="lefttop"><div>
-          <div class="tit"><strong>当前位置: </strong><a href="default.aspx"><strong> 首页 </strong></a><strong> &gt;&gt; 日志详细</strong></div>
+        <div class="maintop content-box">
+          <div class="tit"><strong>当前位置: </strong><a href="default.aspx"><strong> 首页 </strong></a><strong> &gt;&gt; 日志详细</strong></div></div>
           <div class="content-box">
                                 <asp:DataGrid ID="DataGrid2" runat="server" AutoGenerateColumns="False" Height="130px"
                                     Width="100%">
@@ -60,8 +60,9 @@
         </div>
       </div>
       
-      <uc2:WebUserControl ID="WebUserControl1" runat="server" />
+      
     </div>
+    <uc2:WebUserControl ID="WebUserControl1" runat="server" />
 			</form>
 			
 </body>
