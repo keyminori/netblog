@@ -21,16 +21,11 @@
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script> 
 </head>
 <body>
-    <form id="Form1" method="post" runat="server">
-			
+<form id="Form1" method="post" runat="server">		
 				
-                    <uc3:top3 ID="Top3_1" runat="server" />
-				
-<uc1:hsgtop2 id="Hsgtop21" runat="server"></uc1:hsgtop2>
-                                                                  
-														
+<uc3:top3 ID="Top3_1" runat="server" />
 
-
+<uc1:hsgtop2 id="Hsgtop21" runat="server"></uc1:hsgtop2>                                                              
 <div class="container">
       <div class="row">
         <div class="side">
@@ -66,8 +61,8 @@
       
       
     </div>
-    <uc2:WebUserControl ID="WebUserControl1" runat="server" />
-			</form>
+<uc2:WebUserControl ID="WebUserControl1" runat="server" />
+</form>
 			
 </body>
 </html>

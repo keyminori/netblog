@@ -14,7 +14,6 @@
   <head  runat="server">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <title>个人博客系统</title>
@@ -68,17 +67,18 @@
               日志列表
             </div>
             <asp:DataGrid ID="DataGrid1" runat="server" AutoGenerateColumns="False"
-            Width="100%" Height="130px" ShowHeader="False">
+            Width="100%" Height="130px">
               <columns>
-                <asp:TemplateColumn>
-                  <HeaderStyle Width="400px" />
+                <asp:TemplateColumn HeaderText="标题">
+                 
                   <itemtemplate>
                     <a href='ggdetail.aspx?id=<%#DataBinder.Eval(Container.DataItem, "id") %>'>
                       <%#DataBinder.Eval(Container.DataItem, "title") %>
                     </a>
                   </itemtemplate>
+                   <HeaderStyle Width="600px" />
                 </asp:TemplateColumn>
-                <asp:BoundColumn DataField="addtime">
+                <asp:BoundColumn DataField="addtime" HeaderText="发布时间">
                 </asp:BoundColumn>
               </columns>
             </asp:DataGrid>
