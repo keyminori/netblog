@@ -88,3 +88,7 @@ li:hover{background-color: rgba(238,238,238,0.50);}
 /* 头部*/
 .topbg{background: url(../img/topbg.gif) no-repeat 50% 70%;height:150px;}
 .up {margin-top:0px;}
+
+/* 头部导航文字 */
+.tit {font-size:14px; padding-top:15px;}
+
