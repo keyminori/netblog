@@ -7,103 +7,34 @@
 <%@ Register TagPrefix="uc1" TagName="hsgleft" Src="hsgleft.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="hsgtop2" Src="hsgtop2.ascx" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head id="Head1" runat="server">
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head  runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <title>个人博客系统</title>
     <LINK href="images/CSS.css" type="text/css" rel="stylesheet">
+    <LINK href="images/buttons.css" type="text/css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script> 
 </head>
 <body>
     <form id="Form1" method="post" runat="server">
-			<DIV align="center"></DIV>
-				<DIV align="center">
-                    <uc3:top3 ID="Top3_1" runat="server" />
-				</DIV>
-				<TABLE style="BORDER-COLLAPSE: collapse" borderColor="#cccccc" cellSpacing="0" cellPadding="0"
-					width="778" border="1" frame="vsides" align="center">
-					
-						<TR>
-							<TD vAlign="top" style="width: 781px; height: 841px">
-								<TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
-									<TBODY>
-										<TR>
-											<TD style="height: 5px"><uc1:hsgtop2 id="Hsgtop21" runat="server"></uc1:hsgtop2></TD>
-										</TR>
-									</TBODY>
-								</TABLE>
-								<TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
-									<TBODY>
-										<TR>
-											<TD style="HEIGHT: 576px" vAlign="top" align="left" width="203" height="576" rowSpan="2">
-												<TABLE cellSpacing="0" cellPadding="0" width="100" border="0">
-													<TBODY>
-														<TR>
-															<TD vAlign="top" background="images/bian-bg.gif" height="183"><FONT face="宋体">&nbsp;<TABLE id="Table2" style="WIDTH: 191px; HEIGHT: 32px" background="images/ttt.gif" border="0">
-																		<TR>
-																			<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 站内导航</TD>
-																		</TR>
-																	</TABLE>
-																	<uc1:hsgleft id="Hsgleft1" runat="server"></uc1:hsgleft></FONT></TD>
-														</TR>
-														<TR>
-															<TD vAlign="bottom" background="images/bian-bg.gif" style="height: 40px"><FONT face="宋体"><TABLE id="Table3" style="WIDTH: 191px; HEIGHT: 32px" background="images/ttt.gif" border="0">
-                                                                <TR>
-                                                                    <TD>
-                                                                        &nbsp; &nbsp; &nbsp; &nbsp; 友情链接</td>
-                                                                </tr>
-                                                            </table>
-                                                            </FONT></TD>
-														</TR>
-														<TR>
-															<TD vAlign="top" align="left" background="images/bian-bg.gif" style="height: 17px"></TD>
-														</TR>
-														<TR>
-															<TD vAlign="top" align="center" background="images/bian-bg.gif" height="0">
-																<TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
-																	<TBODY>
-																		<TR>
-																			<TD vAlign="middle" align="left" height="29"><IMG height="9" src="images/arrow.gif" width="14">
-																				<A href="http://www.dzswpx.cn/" target="_blank">电子商务培训网</A>
-																			</TD>
-																		</TR>
-																		<TR>
-																			<TD vAlign="middle" align="left" height="29"><IMG height="9" src="images/arrow.gif" width="14">
-																				<A href="http://emci.sce.tsinghua.edu.cn/" target="_blank">国际工程管理认证</A>
-																			</TD>
-																		</TR>
-																		<TR>
-																			<TD vAlign="middle" align="left" height="29"><IMG height="9" src="images/arrow.gif" width="14">
-																				<A href="http://emci.caiep.org/" target="_blank">中国人才交流协会网站</A>
-																			</TD>
-																		</TR>
-																		<TR>
-																			<TD vAlign="middle" align="left" height="29"><IMG height="9" src="images/arrow.gif" width="14">
-																				<A href="http://www.cmarn.org/" target="_blank">中国市场营销培训网</A>
-																			</TD>
-																		</TR>
-																		<TR>
-																			<TD vAlign="middle" align="left" height="29"><IMG height="9" src="images/arrow.gif" width="14">
-																				<A href="http://www.zjjmw.gov.cn/" target="_blank">浙江省经济贸易委员会</A>
-																			</TD>
-																		</TR>
-																	</TBODY>
-																</TABLE>
-															</TD>
-														</TR>
-														<TR>
-															<TD vAlign="top" align="right" height="8"><IMG height="8" src="images/di-bg.gif" width="195"></TD>
-														</TR>
-													</TBODY>
-												</TABLE>
-											</TD>
-											<TD vAlign="top" align="left" width="571" bgColor="#f2f2f2" style="height: 22px">
-                                                <strong>访问者留言</strong></TD>
-						</TR>
-		
-						<TR>
-							<TD style="HEIGHT: 527px" vAlign="top" height="527">
-                                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+    <uc3:top3 ID="Top3_1" runat="server" />
+
+<uc1:hsgtop2 id="Hsgtop21" runat="server"></uc1:hsgtop2>                                                              
+<div class="container">
+      <div class="row">
+        <div class="side">
+          <uc1:hsgleft id="Hsgleft1" runat="server">
+          </uc1:hsgleft>
+        </div>
+        <div class="main">
+        <div class="maintop content-box">
+          <div class="tit"><strong>当前位置: </strong><a href="default.aspx"><strong> 首页 </strong></a><strong> &gt;&gt; 作品列表</strong></div></div>
+          <div class="content-box">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
                                     <tr>
                                         <td style="width: 100%; height: 527px" valign="top">
                                             <div align="center">
@@ -127,15 +58,15 @@
                                                                     <td align="center" bgcolor="#ffffff" height="20" style="width: 56px" valign="middle">
                                                                         性 别:</td>
                                                                     <td align="left" bgcolor="#ffffff" style="width: 110px" valign="middle">
-                                                                        <asp:RadioButton ID="Radboy" runat="server" Checked="True" GroupName="sex" Style="border-right: #009900 1px solid;
-                                                                            border-top: #009900 1px solid; font: menu; border-left: #009900 1px solid; border-bottom: #009900 1px solid"
+                                                                        <asp:RadioButton ID="Radboy" runat="server" Checked="True" GroupName="sex" Style="border-right:  1px solid;
+                                                                            border-top:  1px solid; font: menu; border-left:  1px solid; border-bottom:  1px solid"
                                                                             Text="男" />&nbsp;
-                                                                        <asp:RadioButton ID="Radgril" runat="server" GroupName="sex" Style="border-right: #009900 1px solid;
-                                                                            border-top: #009900 1px solid; font: icon; border-left: #009900 1px solid; border-bottom: #009900 1px solid"
+                                                                        <asp:RadioButton ID="Radgril" runat="server" GroupName="sex" Style="border-right:  1px solid;
+                                                                            border-top:  1px solid; font: icon; border-left:  1px solid; border-bottom:  1px solid"
                                                                             Text="女" /></td>
-                                                                    <td bgcolor="#ffffff" colspan="2" style="color: #000000" valign="top">
-                                                                        <!--DWLayoutEmptyCell-->
-                                                                        &nbsp;</td>
+                                                                    <td bgcolor="#ffffff" colspan="2" style="color: #000000" valign="top"><!--DWLayoutEmptyCell-->&nbsp;
+                                                                        
+                                                                        </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="center" bgcolor="#ffffff" height="20" style="width: 56px" valign="middle">
@@ -170,13 +101,11 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td bgcolor="#ffffff" height="27" style="width: 56px" valign="top">
-                                                                        <!--DWLayoutEmptyCell-->
+                                                                        
                                                                         <span style="font-family: Times New Roman">&nbsp;</span></td>
                                                                     <td align="center" bgcolor="#ffffff" style="width: 110px; font-family: Times New Roman"
                                                                         valign="middle">
-                                                                        &nbsp;<asp:Button ID="addly" runat="server" OnClick="addly_Click" Style="border-right: #009900 2px solid;
-                                                                            border-top: #009900 2px solid; font: menu; border-left: #009900 2px solid; border-bottom: #009900 2px solid;
-                                                                            background-color: #99cc99" Text="添加留言" Width="77px" /></td>
+                                                                        &nbsp;<asp:Button ID="addly" runat="server" OnClick="addly_Click"  CssClass="button small gray" Text="添加留言" Width="77px" /></td>
                                                                     <td align="left" bgcolor="#ffffff" colspan="2" valign="middle">
                                                                         &nbsp;<asp:CheckBox ID="ishde" runat="server" Text="悄悄话" /></td>
                                                                 </tr>
@@ -235,12 +164,12 @@
                                             <div align="center">
                                                 <asp:Repeater ID="rpt1" runat="server">
                                                     <ItemTemplate>
-                                                        <table bgcolor="#009900" border="0" cellpadding="0" cellspacing="1" class="tb" width="100%">
+                                                        <table bgcolor="" border="0" cellpadding="0" cellspacing="1" class="tb" width="100%">
                                                             <!--DWLayoutTable-->
                                                             <tr>
-                                                                <td bgcolor="#FFFFFF" rowspan="3" valign="top" width="11">
-                                                                    <!--DWLayoutEmptyCell-->
-                                                                    &nbsp;</td>
+                                                                <td bgcolor="#FFFFFF" rowspan="3" valign="top" width="11"><!--DWLayoutEmptyCell-->&nbsp;
+                                                                    
+                                                                    </td>
                                                                 <td align="center" bgcolor="#FFFFFF" rowspan="2" valign="middle" width="85">
                                                                     <%#"<img width='70'height='70' src=img/" + Eval("Face") + ".gif border=0>"%>
                                                                 </td>
@@ -251,9 +180,9 @@
                                                                     &nbsp;
                                                                     <%# show_admin(Convert.ToInt32(Eval("id"))) %>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" rowspan="3" style="width: 10px" valign="top" width="12">
-                                                                    <!--DWLayoutEmptyCell-->
-                                                                    &nbsp;</td>
+                                                                <td bgcolor="#FFFFFF" rowspan="3" style="width: 10px" valign="top" width="12"><!--DWLayoutEmptyCell-->&nbsp;
+                                                                    
+                                                                    </td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="left" bgcolor="#FFFFFF" colspan="2" height="78" valign="top">
@@ -294,26 +223,14 @@
                                         </td>
                                     </tr>
                                 </table>
-                            </TD>
-						</TR>
-					</TBODY>
-				</TABLE>
-				
-				<DIV align="center">
-					<TABLE style="BORDER-COLLAPSE: collapse" borderColor="#cccccc" cellSpacing="0" cellPadding="0"
-						width="778" border="0" frame="vsides">
-						<TBODY>
-							<TR>
-								<TD align="left" width="10%" background="images/down-bg.gif" style="height: 42px"><IMG height="35" src="images/down-left.gif" width="1"></TD>
-								<TD vAlign="bottom" align="center" width="80%" background="images/down-bg.gif" style="height: 42px">
-								</TD>
-								<TD align="right" width="10%" background="images/down-bg.gif" style="height: 42px"><IMG height="35" src="images/down-left.gif" width="1"></TD>
-							</TR>
-						</TBODY>
-					</TABLE>
-				</DIV>
-                                <uc2:WebUserControl ID="WebUserControl1" runat="server" />
-				
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+<uc2:WebUserControl ID="WebUserControl1" runat="server" />
+
 
 			</form>
 			
