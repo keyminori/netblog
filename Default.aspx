@@ -63,7 +63,7 @@
           </div>
         </div>
       </div>
-      <div class="content-box">
+      <div class="up content-box">
             <div class="rightttop">
               日志列表
             </div>
