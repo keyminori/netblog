@@ -80,13 +80,7 @@
       
     </div>
 <uc2:WebUserControl ID="WebUserControl1" runat="server" />
-
-
-				
-
-				
-
-			</form>
+</form>
 			
 </body>
 </html>
