@@ -146,8 +146,7 @@
                     <table width="100%" border="0" cellspacing="5">
                         <tbody>
                             <tr>
-                              <td width="90" rowspan="2">
-                                  
+                              <td width="90" rowspan="2" valign="top" style="  padding: 10px;"> 
                                 <%#"<img width='70'height='70' src=img/" + Eval("Face") + ".gif border=0>"%></td>
                                 <td>
                                     留言于:
