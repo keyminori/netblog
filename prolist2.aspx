@@ -18,7 +18,7 @@
     <meta name="description" content="" />
     <title>个人博客系统</title>
     <LINK href="images/CSS.css" type="text/css" rel="stylesheet">
-    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script> 
+
 </head>
 <body>
 
@@ -56,13 +56,13 @@
                                         </asp:TemplateColumn>
                                         <asp:BoundColumn DataField="mingcheng" HeaderText="相册名称"></asp:BoundColumn>
                                         <asp:BoundColumn DataField="addtime" HeaderText="发布时间"></asp:BoundColumn>
-                                  
+                                 
                                         <asp:TemplateColumn HeaderText="照片">
                                             <ItemTemplate>
-                                                <a href='uppic/<%#DataBinder.Eval(Container.DataItem, "pic") %>' target="_blank">
-                                                    <img height="50" src='uppic/<%#DataBinder.Eval(Container.DataItem, "pic") %>' width="50"></a>
+                                                <a  id="imgbox" href='uppic/<%#DataBinder.Eval(Container.DataItem, "pic") %>' target="_blank"><img height="50" src='uppic/<%#DataBinder.Eval(Container.DataItem, "pic") %>' width="50" /></a>
                                             </ItemTemplate>
                                         </asp:TemplateColumn>
+                                      
                                     </Columns>
                                 </asp:DataGrid>                  
 

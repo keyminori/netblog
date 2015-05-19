@@ -89,4 +89,16 @@
 <file name="bpHS.css" server="50.117.89.160" local="130760653992633746" remote="130760651400000000" Dst="0" />
 <file name="button_bg.png" server="50.117.89.160" local="129304975780000000" remote="130764187200000000" Dst="0" />
 <file name="buttons.css" server="50.117.89.160" local="130764190269967878" remote="130764190200000000" Dst="0" />
+<file name="jquery.imgbox.pack.js" server="50.117.89.160" local="129006889580000000" remote="130765138800000000" Dst="0" />
+<file name="jquery.min.js" server="50.117.89.160" local="129995884800000000" remote="130765140600000000" Dst="0" />
+<file name="imgbox-spinner.gif" server="50.117.89.160" local="129006848340000000" remote="130765142400000000" Dst="0" />
+<file name="imgbox-close.png" server="50.117.89.160" local="128477368120000000" remote="130765142400000000" Dst="0" />
+<file name="imgbox-bg-n.png" server="50.117.89.160" local="129005870500000000" remote="130765142400000000" Dst="0" />
+<file name="imgbox-bg-ne.png" server="50.117.89.160" local="129005870980000000" remote="130765142400000000" Dst="0" />
+<file name="imgbox-bg-e.png" server="50.117.89.160" local="129005872140000000" remote="130765143000000000" Dst="0" />
+<file name="imgbox-bg-se.png" server="50.117.89.160" local="129005871300000000" remote="130765143000000000" Dst="0" />
+<file name="imgbox-bg-s.png" server="50.117.89.160" local="129005868460000000" remote="130765143000000000" Dst="0" />
+<file name="imgbox-bg-sw.png" server="50.117.89.160" local="129005868060000000" remote="130765143000000000" Dst="0" />
+<file name="imgbox-bg-w.png" server="50.117.89.160" local="129005869260000000" remote="130765143000000000" Dst="0" />
+<file name="imgbox-bg-nw.png" server="50.117.89.160" local="129005869740000000" remote="130765143000000000" Dst="0" />
 </dwsync>

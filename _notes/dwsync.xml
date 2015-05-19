@@ -14,7 +14,7 @@
 <file name="dellyb.aspx.cs" server="50.117.89.160" local="128822165300000000" remote="130760526600000000" Dst="0" />
 <file name="edituser.aspx.cs" server="50.117.89.160" local="128835939580000000" remote="130760526600000000" Dst="0" />
 <file name="edituser.aspx" server="50.117.89.160" local="128819520260000000" remote="130760526600000000" Dst="0" />
-<file name="ggdetail.aspx" server="50.117.89.160" local="129124201120000000" remote="130760526600000000" Dst="0" />
+<file name="ggdetail.aspx" server="50.117.89.160" local="130765134193107131" remote="130765134000000000" Dst="0" />
 <file name="gg_add.aspx" server="50.117.89.160" local="129117500040000000" remote="130760526600000000" Dst="0" />
 <file name="ggdetail.aspx.cs" server="50.117.89.160" local="128835942760000000" remote="130760526600000000" Dst="0" />
 <file name="gg_add.aspx.cs" server="50.117.89.160" local="129117499540000000" remote="130760526600000000" Dst="0" />
@@ -46,11 +46,11 @@
 <file name="newslist.aspx.cs" server="50.117.89.160" local="129117928780000000" remote="130760527800000000" Dst="0" />
 <file name="prolist.aspx" server="50.117.89.160" local="130764925099342450" remote="130764925800000000" Dst="0" />
 <file name="prolist.aspx.cs" server="50.117.89.160" local="128835488040000000" remote="130760527800000000" Dst="0" />
-<file name="prolist2.aspx" server="50.117.89.160" local="130764067143547878" remote="130764066600000000" Dst="0" />
+<file name="prolist2.aspx" server="50.117.89.160" local="130765156640765064" remote="130765156200000000" Dst="0" />
 <file name="prolist2.aspx.cs" server="50.117.89.160" local="129117940220000000" remote="130760527800000000" Dst="0" />
 <file name="pro_add.aspx" server="50.117.89.160" local="129117501800000000" remote="130760527800000000" Dst="0" />
 <file name="pro_add.aspx.cs" server="50.117.89.160" local="129117933760000000" remote="130760527800000000" Dst="0" />
-<file name="pro_detail.aspx" server="50.117.89.160" local="130765125026771794" remote="130765124400000000" Dst="0" />
+<file name="pro_detail.aspx" server="50.117.89.160" local="130765132774294777" remote="130765132200000000" Dst="0" />
 <file name="pro_detail.aspx.cs" server="50.117.89.160" local="129117937600000000" remote="130760527800000000" Dst="0" />
 <file name="pro_list.aspx" server="50.117.89.160" local="129117934080000000" remote="130760527800000000" Dst="0" />
 <file name="pro_list.aspx.cs" server="50.117.89.160" local="128830830800000000" remote="130760527800000000" Dst="0" />

@@ -159,7 +159,7 @@ table#DataGrid1 tbody tr:first-child {background: #eee;font-weight:bold;}
 table#DataGrid1 tbody tr td:nth-child(odd){width:;}
 table#DataGrid1{font-size:14px;}
 table#info {border-spacing: 0px;}
-table#xczw {}
+table#zengwen {  border-spacing: 0;}
 /* 导航头部*/
 .lefttop{background:url(ttt.gif);height:36px;line-height:36px;text-align:center;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;}
 .maintop{margin:15px 0 -15px;background:url(ttt.gif);height:36px;line-height:30px;font-size:14px;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-weight:bold;}
@@ -212,3 +212,4 @@ select:focus{
 	-webkit-box-shadow: 0 0 2px rgba(160,200,255,0.50);
 	box-shadow: 0 0 2px rgba(160,200,255,0.50);
 }
+

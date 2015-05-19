@@ -80,10 +80,13 @@ width="100%">
         </asp:Label>
       </td>
     </tr>
+        <tr>
+      <td colspan="2" align="center" >
+<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="prolist.aspx">返回</asp:HyperLink>      </td>
+    </tr>
   </tbody>
 </table>
-<div style="padding:10px;" align="right">                         
-<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="prolist.aspx">返回</asp:HyperLink>   </div>       
+      
           </div>
         </div>
       </div>
